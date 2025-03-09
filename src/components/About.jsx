@@ -14,7 +14,7 @@ export default function About() {
           <div className="nameAndPhoto">
             <img
               className="halisquare"
-              src="hali-rodriguez-portfolio\src\assets\hali3.jpg"
+              src="hali-rodriguez-portfolio/src/assets/hali3.jpg"
             />
             <p className="bio">
               <h1>Hali Jaden Rodriguez</h1>
