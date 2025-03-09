@@ -1,0 +1,203 @@
+/**
+ * :root {
+ *   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+ *   line-height: 1.5;
+ *   font-weight: 400;
+ * 
+ *   color-scheme: light dark;
+ *   color: rgba(255, 255, 255, 0.87);
+ *   background-color: rgb(121, 153, 190);
+ * background-image: url("flower.jpeg");
+ *   font-synthesis: none;
+ *   text-rendering: optimizeLegibility;
+ *   -webkit-font-smoothing: antialiased;
+ *   -moz-osx-font-smoothing: grayscale;
+ *   -webkit-text-size-adjust: 100%;
+ * }
+ *
+ * @format
+ */
+
+html {
+  background-image: url("../src/assets/jellies.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgb(8, 24, 49); */
+  /* background-repeat: no-repeat; */
+  color: rgb(238, 248, 222);
+  /* color: rgb(233, 255, 199); */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+body {
+  text-align: left;
+}
+
+/* COMPONENTS*/
+.home {
+  /* border-color: #12345cf1; */
+  background-color: #24454a;
+  /* background-image: url("../src/assets/kelpforest.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: double;
+  border-radius: 20px;
+  border-width: thick;
+
+  /* background: #0000004f; */
+}
+/* .about {
+  border-style: double;
+  border-radius: 20px;
+  border-color: #264e69;
+} */
+/*````````````````````` */
+/* LINKS AND A CLASSES */
+.links {
+  display: flex;
+  gap: 10px;
+  font-size: 1.2em;
+  color: rgb(238, 248, 222);
+  margin-left: 20px;
+  text-decoration: underline;
+}
+.socials {
+  width: 50px;
+  height: auto;
+  /* display: flex; */
+  flex-wrap: wrap-reverse;
+  /* background-color: #2e18638e; */
+  gap: 20px;
+}
+.socials:hover {
+  opacity: 60%;
+}
+.socialbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+a {
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535353;
+}
+/*```````````````````` */
+
+/* IMAGES */
+.studiodrink {
+  width: 500px;
+}
+.hali {
+  width: fixed;
+  size: 311px;
+  height: 398.5px;
+  border: rgb(175, 175, 175);
+  border-style: double;
+  margin: 20px;
+  border-radius: 50%;
+}
+.halisquare {
+  width: fixed;
+  size: 311px;
+  height: 398.5px;
+  /* border-color: #264e69; */
+  border-style: double;
+  margin: 20px;
+  border-radius: 50%;
+  border-width: thick;
+}
+/* ````````````````````````````````` */
+
+/* TEXT */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-thickness: 1%;
+}
+.nameAndPhoto {
+  display: flex;
+  /* flex-wrap: wrap-reverse; */
+  /* border-style: double; */
+  border-radius: 20px;
+  border-color: #264e69;
+}
+.bio {
+  margin-left: 20px;
+  background-color: #24454a;
+  /* background-color: #12345cf1; */
+  /* background-color: #0d162981; */
+  text-align: center;
+  border-radius: 20px;
+  border: rgb(175, 175, 175);
+  border-style: double;
+  margin: 20px;
+
+  padding: 15px;
+}
+.hobbies {
+  margin-left: 20px;
+  background-color: #24454a;
+  text-align: center;
+  border-radius: 20px;
+  border: rgb(175, 175, 175);
+  border-style: double;
+  margin: 20px;
+  padding: 15px;
+}
+p {
+  border-style: double;
+  /* border-radius: 20px; */
+  border-color: #264e69;
+}
+.divider {
+  text-align: center;
+}
+/* PROJECTS */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+.dev1 {
+  display: flex;
+  flex: content;
+  flex-direction: row;
+}
+/* ``````````````````````````` */
+/* button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
