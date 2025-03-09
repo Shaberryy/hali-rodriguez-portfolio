@@ -1,3 +1,5 @@
+/** @format */
+
 // import NavBar from "./NavBar";
 import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";

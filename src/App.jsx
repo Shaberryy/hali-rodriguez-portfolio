@@ -18,8 +18,11 @@ function App() {
         {/* <NavBar/> */}
         <Routes>
           <Route path="/hali-rodriguez-portfolio" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/hali-rodriguez-portfolio/About" element={<About />} />
+          <Route
+            path="/hali-rodriguez-portfolio/portfolio"
+            element={<Portfolio />}
+          />
           {/* <Route path="/Contact" element={<ContactPage />} /> */}
         </Routes>
       </BrowserRouter>

@@ -1,3 +1,5 @@
+/** @format */
+
 import ContactPage from "./ContactPage";
 import NavBar from "./NavBar";
 
