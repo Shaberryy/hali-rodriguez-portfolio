@@ -12,7 +12,7 @@ export default function Portfolio() {
         <div className="Dev1">
           <h1>Studio Drink</h1>
           <img
-            src="/hali-rodriguez-portfolio/src/assets/studioDrink.https://media.discordapp.net/attachments/1150879184273543188/1348235646237540362/studioDrink.PNG?ex=67ceb9cb&is=67cd684b&hm=55c4a61c506610386e8a21447373c1621587388117180eb5c406f0dd9ffdb30b&=&format=webp&quality=lossless&width=855&height=480PNG"
+            src="https://media.discordapp.net/attachments/1150879184273543188/1348235646237540362/studioDrink.PNG?ex=67ceb9cb&is=67cd684b&hm=55c4a61c506610386e8a21447373c1621587388117180eb5c406f0dd9ffdb30b&=&format=webp&quality=lossless&width=855&height=480"
             // src="/hali-rodriguez-portfolio/src/assets/studioDrink.PNG"
             className="studiodrink"
           />
