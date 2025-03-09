@@ -10,8 +10,11 @@ export default function Portfolio() {
       <div className="projects">
         <h1>Dev Projects</h1>
         <div className="Dev1">
-          <h2>Studio Drink</h2>
-          <img src="../src/assets/studioDrink.PNG" className="studiodrink" />
+          <h1>Studio Drink</h1>
+          <img
+            src="/hali-rodriguez-portfolio/src/assets/studioDrink.PNG"
+            className="studiodrink"
+          />
           <p>
             Studio Drink is a full stack web application that combines two
             powerful remote APIs (Spotify and The Cocktail DB) with our local
@@ -28,12 +31,13 @@ export default function Portfolio() {
             day/night mode toggle, custom side navigation, custom snackbar
             alerts, flip cards, and transition animations).
           </p>
-          <h3>Project tech stack:</h3>
+          <h2>Project tech stack:</h2>
           <p>
             JavaScript | React | HTML | CSS | Express | Node.js | SQL |
             PostgreSQL | Material UI | BCrypt | Cypress
           </p>
           <iframe
+            className="video"
             width="560"
             height="315"
             src="https://www.youtube-nocookie.com/embed/bwXg36Vy9BI?si=1EmulJh0GCxD5ZX0"
@@ -42,18 +46,30 @@ export default function Portfolio() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
-        </div>
-        <h3 className="divider">✧･ﾟ: *✧･ﾟ:* ~·͙*̩̩͙˚̩̥̩̥*̩̩̥͙ ✩ *̩̩̥͙˚̩̥̩̥*̩̩͙‧͙~ *:･ﾟ✧*:･ﾟ✧</h3>
-        <h1>Art Projects</h1>
-        <div className="art1">
-          <h2>Hand Study</h2>
-          <img src="../src/assets/hand.jpg" />
-          <h2>art instagram</h2>
+          <br />
+          <div>
+            {/* <h3 className="divider">✧･ﾟ: *✧･ﾟ:* ~·͙*̩̩͙˚̩̥̩̥*̩̩̥͙ ✩ *̩̩̥͙˚̩̥̩̥*̩̩͙‧͙~ *:･ﾟ✧*:･ﾟ✧</h3> */}
+            <h1>Art Projects</h1>
+            <div className="art1">
+              <h2>Hand Study</h2>
+              <img
+                className="hand"
+                src="/hali-rodriguez-portfolio/src/assets/hand.jpg"
+              />
+              <h2>Room Study</h2>
+
+              <img
+                className="room"
+                src="/hali-rodriguez-portfolio/src/assets/room.jpg"
+              />
+            </div>
+
+            {/* <h2>art instagram</h2>
           <iframe>
             <video src=""></video>
-          </iframe>
+          </iframe> */}
+          </div>
         </div>
-        <h2>Room Study</h2>
       </div>
       <ContactPage />
     </>

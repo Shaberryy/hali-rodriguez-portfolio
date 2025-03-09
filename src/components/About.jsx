@@ -41,14 +41,20 @@ export default function About() {
             </p>
           </div>
           {/* <h3 className="divider">✧･ﾟ: *✧･ﾟ:* ~·͙*̩̩͙˚̩̥̩̥*̩̩̥͙ ✩ *̩̩̥͙˚̩̥̩̥*̩̩͙‧͙~ *:･ﾟ✧*:･ﾟ✧</h3> */}
-          <p className="hobbies">
-            <h2>Hobbies</h2>
-            <h3>
+          <div className="nameAndPhoto">
+            <img
+              className="halisquare"
+              src="hali-rodriguez-portfolio/src/assets/squib.jpg"
+            />
+            <p className="hobbies">
+              <h2>Hobbies</h2>
               In my free time I love to play music, I am a self taught musician
-              and can play; guitar, ukulele, bass and pian. I also love learning
-              languages and raising my plant children. :3
-            </h3>
-          </p>
+              who can play; guitar, ukulele, bass and piano. I also love
+              learning languages and raising my plants! I recently adopted a
+              kitten (see image on left) and she has brought so much joy to my
+              life and loves to lay on my keyboard and hands when I work. :3
+            </p>
+          </div>
         </body>
         <footer>
           <h2 className="return">

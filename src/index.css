@@ -88,9 +88,12 @@ a:hover {
 }
 /*```````````````````` */
 
-/* IMAGES */
+/* IMAGES & VIDEOS */
 .studiodrink {
   width: 500px;
+  border: rgb(175, 175, 175);
+  border-style: double;
+  border-width: thick;
 }
 .hali {
   width: fixed;
@@ -111,6 +114,23 @@ a:hover {
   border-radius: 50%;
   border-width: thick;
 }
+.hand {
+  width: 50%;
+  border: rgb(175, 175, 175);
+  border-style: double;
+  border-width: thick;
+}
+.room {
+  width: 60%;
+  border: rgb(175, 175, 175);
+  border-style: double;
+  border-width: thick;
+}
+.video {
+  border: rgb(175, 175, 175);
+  border-style: double;
+  border-width: thick;
+}
 /* ````````````````````````````````` */
 
 /* TEXT */
@@ -121,6 +141,7 @@ h1 {
   text-decoration-style: double;
   text-decoration-thickness: 1%;
 }
+
 .nameAndPhoto {
   display: flex;
   /* flex-wrap: wrap-reverse; */
@@ -138,8 +159,8 @@ h1 {
   border: rgb(175, 175, 175);
   border-style: double;
   margin: 20px;
-
   padding: 15px;
+  font-style: oblique;
 }
 .hobbies {
   margin-left: 20px;
@@ -149,12 +170,16 @@ h1 {
   border: rgb(175, 175, 175);
   border-style: double;
   margin: 20px;
+  font-style: oblique;
   padding: 15px;
 }
 p {
-  border-style: double;
   /* border-radius: 20px; */
-  border-color: #264e69;
+  border: rgb(175, 175, 175);
+  border-radius: 20px;
+  border-style: double;
+  background-color: #24454a;
+  font-size: larger;
 }
 .divider {
   text-align: center;
@@ -163,6 +188,7 @@ p {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 .dev1 {
   display: flex;
