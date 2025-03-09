@@ -6,10 +6,10 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/home";
-// import NavBar from "./components/NavBar";
+import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
-// import ContactPage from "./components/ContactPage";
+import ContactPage from "./components/ContactPage";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         {/* <NavBar/> */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/hali-rodriguez-portfolio" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           {/* <Route path="/Contact" element={<ContactPage />} /> */}
