@@ -190,11 +190,11 @@ p {
   flex-wrap: wrap;
   text-align: center;
 }
-.dev1 {
+/* .dev1 {
   display: flex;
   flex: content;
   flex-direction: row;
-}
+} */
 /* ``````````````````````````` */
 /* button {
   border-radius: 8px;
@@ -215,7 +215,8 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 } */
 
-@media (prefers-color-scheme: light) {
+/* DESKTOP MEDIA */
+@media only screen (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -227,3 +228,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* MOBILE MEDIA */
