@@ -15,7 +15,7 @@ export default function About() {
             <img
               className="halisquare"
               // src="https://media.discordapp.net/attachments/1150879184273543188/1348234449984159744/hali3.jpg?ex=67ceb8ad&is=67cd672d&hm=97b98cf035af3ebcec952276e6b990f370e6df94272ebebbb6370d6f5c684ff7&=&format=webp&width=516&height=516"
-              src="hali-rodriguez-portfolio/src/assets/hali3.jpg"
+              src="hali-rodriguez-portfolio/dist/assets/hali3.jpg"
             />
             <p className="bio">
               <h1>Hali Jaden Rodriguez</h1>
@@ -45,7 +45,8 @@ export default function About() {
           <div className="nameAndPhoto">
             <img
               className="halisquare"
-              src="hali-rodriguez-portfolio/src/assets/squib.jpg"
+              src="hali-rodriguez-portfolio/dist/assets/squib.jpg"
+
               // src="https://cdn.discordapp.com/attachments/1150879184273543188/1348233820763066418/squib.jpg?ex=67ceb817&is=67cd6697&hm=30df0979a9aef4ae1069644b425c8df994e446dc76d2ae79ddac884f2b4c63cc&"
             />
             <p className="hobbies">
