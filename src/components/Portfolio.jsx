@@ -13,7 +13,7 @@ export default function Portfolio() {
           <h1>Studio Drink</h1>
           <img
             // src="https://media.discordapp.net/attachments/1150879184273543188/1348235646237540362/studioDrink.PNG?ex=67ceb9cb&is=67cd684b&hm=55c4a61c506610386e8a21447373c1621587388117180eb5c406f0dd9ffdb30b&=&format=webp&quality=lossless&width=855&height=480"
-            src="/hali-rodriguez-portfolio/dist/studioDrink.PNG"
+            src="/hali-rodriguez-portfolio/src/assets/studioDrink.png"
             className="studiodrink"
           />
           <p>
@@ -56,14 +56,14 @@ export default function Portfolio() {
               <img
                 className="hand"
                 // src="https://cdn.discordapp.com/attachments/1150879184273543188/1348234678141845534/hand.jpg?ex=67ceb8e4&is=67cd6764&hm=0da1cb2a4c5f806ca63d33e61e179a03b9c503641886edd8ea65c4152504c7a0&"
-                src="/hali-rodriguez-portfolio/dist/hand.jpg"
+                src="/hali-rodriguez-portfolio/src/assets/hand.jpg"
               />
               <h2>Room Study</h2>
 
               <img
                 className="room"
                 // src="https://media.discordapp.net/attachments/1150879184273543188/1348234964398772334/room.jpg?ex=67ceb928&is=67cd67a8&hm=620da98ba897a8129e3b3635e08700b062e9944dee97d9a3376dcc257647ca3e&=&format=webp&width=855&height=481"
-                src="/hali-rodriguez-portfolio/dist/room.jpg"
+                src="/hali-rodriguez-portfolio/src/assets/room.jpg"
               />
             </div>
 
