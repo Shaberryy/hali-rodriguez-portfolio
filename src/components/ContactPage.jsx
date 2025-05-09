@@ -22,13 +22,13 @@ export default function ContactPage() {
             <a href="https://github.com/Shaberryy">
               <img src={github} className="socials" />
             </a>
-            <a href="https://www.artstation.com/jaden_png">
+            {/* <a href="https://www.artstation.com/jaden_png">
               <img src={artstation} className="socials" />
-            </a>
+            </a> */}
             {/* <a href="https://www.artstation.com/jaden_png">
               <img src={tumblr} className="socials" />
             </a> */}
-            <a href="jaden.png02@gmail.com">
+            <a href="mailto:jaden.png02@gmail.com">
               <img src={gmail} className="socials" />
             </a>
           </div>
