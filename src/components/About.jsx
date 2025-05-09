@@ -45,7 +45,7 @@ export default function About() {
           <div className="nameAndPhoto">
             <img
               className="halisquare"
-              src="/hali-rodriguez-portfolio/dist/squib.jpg"
+              src="/hali-rodriguez-portfolio/dist/squib2.jpg"
 
               // src="https://cdn.discordapp.com/attachments/1150879184273543188/1348233820763066418/squib.jpg?ex=67ceb817&is=67cd6697&hm=30df0979a9aef4ae1069644b425c8df994e446dc76d2ae79ddac884f2b4c63cc&"
             />
